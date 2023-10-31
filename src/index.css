@@ -8,7 +8,11 @@
   --primary-color: #327895;
   --secondary-color: #ffff;
   --background-light-color: #F8F8F8;
+  --background-pink-color: #FFF4E7;
   --hover-color: red;
+  --button-primary-color: #FF900E;
+  --button-hover-color: #f0ad60;
+  --text-light-color: #F8F8F8;
 }
 
 body {

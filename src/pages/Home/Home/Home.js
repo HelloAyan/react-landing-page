@@ -11,6 +11,10 @@ import figma from '../../../assets/sponsors/figma.png';
 import google from '../../../assets/sponsors/google.png';
 import spotify from '../../../assets/sponsors/spotify.png';
 import telerama from '../../../assets/sponsors/telerama.png';
+import team1 from '../../../assets/team/team1.png';
+import team2 from '../../../assets/team/team2.png';
+import team3 from '../../../assets/team/team3.png';
+import team4 from '../../../assets/team/team4.png';
 import { Carousel } from 'react-responsive-carousel';
 import 'react-responsive-carousel/lib/styles/carousel.min.css';
 import { FaSpider, FaCalendarCheck, FaPager, FaShopify, FaMobileAlt, FaDharmachakra } from "react-icons/fa";
@@ -54,6 +58,26 @@ const Home = () => {
                     </div>
 
                 </Carousel>
+            </div>
+
+            {/* Quick List Feature Section Start */}
+
+            <div className={styles.feature_container}>
+                <div className={styles.feature_section}>
+                    <div className={styles.feature_image_section}>
+                        <div className={styles.feature_image_item}> <img src={team1} alt="Team1" /> </div>
+                        <div className={styles.feature_image_item}> <img src={team2} alt="Team2" /> </div>
+                        <div className={styles.feature_image_item}> <img src={team3} alt="Team3" /> </div>
+                        <div className={styles.feature_image_item}> <img src={team4} alt="Team4" /> </div>
+
+                    </div>
+                    <div className={styles.feature_content_section}>
+                        <div className={styles.feature_quick_list}>
+                            <div className={styles.quick_list_title}>Quick List of our <br />  <span className={styles.feature_sub_title}> Features </span> </div>
+                            <div className={styles.primary_button}>Explore More </div>
+                        </div>
+                    </div>
+                </div>
             </div>
 
 
@@ -118,7 +142,7 @@ const Home = () => {
                 <div className={styles.sponsorship_item_section}>
                     <div className={styles.sponsorship_item_image}> <img src={amazon} alt="Amazon" /> </div>
                     <div className={styles.sponsorship_item_image}> <img src={figma} alt="Figma" /></div>
-                    <div className={styles.sponsorship_item_image}><img src={google} alt="Google" /> </div>
+                    <div className={styles.sponsorship_item_image}> <img src={google} alt="Google" /> </div>
                     <div className={styles.sponsorship_item_image}> <img src={spotify} alt="Spotify" /> </div>
                     <div className={styles.sponsorship_item_image}> <img src={telerama} alt="Telerama" /> </div>
 
