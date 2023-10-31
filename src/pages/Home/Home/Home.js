@@ -61,11 +61,13 @@ const Home = () => {
                                 className="m-auto my-2 my-lg-0 text-white"
                                 navbarScroll
                             >
-                                <Nav.Link href="#action1" className="text-white fs-5">Home</Nav.Link>
-                                <Nav.Link href="#action1" className="text-white fs-5">Our Services</Nav.Link>
+                                <Nav.Link href="#" className="text-white fs-5">Home</Nav.Link>
+                                <Nav.Link href="#our_service" className="text-white fs-5">Our Services</Nav.Link>
+                                <Nav.Link href="#blog" className="text-white fs-5"> Blog</Nav.Link>
+                                <Nav.Link href="#Sponsorship" className="text-white fs-5">Sponsorship</Nav.Link>
+                                <Nav.Link href="#Our_Success" className="text-white fs-5">Our Success</Nav.Link>
+                                <Nav.Link href="#action2" className="text-white fs-5">About</Nav.Link>
                                 <Nav.Link href="#action1" className="text-white fs-5">Contact</Nav.Link>
-                                <Nav.Link href="#action2" className="text-white fs-5">Contact</Nav.Link>
-                                <Nav.Link href="#action1" className="text-white fs-5">About</Nav.Link>
                             </Nav>
                         </Navbar.Collapse>
                     </Container>
@@ -168,9 +170,9 @@ const Home = () => {
 
 
                 {/*  Some Facts Section Start */}
-                <section>
+                <section id='Our_Success'>
                     <div class={styles.some_facts_container}>
-                        <h2 className={styles.title}>Some Facts</h2>
+                        <h2 className={styles.title}>Our Success</h2>
 
                         <div class={styles.some_fact_box_container}>
                             <div class={styles.box}>
@@ -201,7 +203,7 @@ const Home = () => {
 
 
                 {/* Services Section Start */}
-                <section>
+                <section id='our_service'>
                     <div className={styles.service_container}>
                         <h4 className={styles.title}>Our Services</h4>
                         <div className={styles.service_section}>
@@ -261,7 +263,7 @@ const Home = () => {
 
 
                 {/* Blog Section Start  */}
-                <section >
+                <section id='blog'>
                     <div class={styles.blog}>
                         <h2 className={styles.title}>Latest News</h2>
                         <div class={styles.blog_Container}>
@@ -289,7 +291,7 @@ const Home = () => {
 
 
                 {/* Sponsorship section start */}
-                <section>
+                <section id='Sponsorship'>
                     <div className={styles.sponsorship_container}>
                         <div className={styles.title}>Our Sponsorship</div>
                         <div className={styles.sponsorship_item_section}>
@@ -320,9 +322,12 @@ const Home = () => {
                         </div>
 
                         <div className={styles.footer_section}>
-                            <h5>Home</h5>
-                            <h5>About</h5>
-                            <h5>Contact</h5>
+
+                            <Nav.Link href="#our_service" className="text-white fs-5">Services</Nav.Link>
+                            <Nav.Link href="#Our_Success" className="text-white fs-5">Success</Nav.Link>
+                            <Nav.Link href="#about" className="text-white fs-5">About</Nav.Link>
+                            <Nav.Link href="#contact" className="text-white fs-5">Contact</Nav.Link>
+
                         </div>
 
                         <div className={styles.footer_section}>
