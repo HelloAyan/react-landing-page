@@ -20,10 +20,10 @@ const Home = () => {
         console.log(`Thumbnail clicked at index ${index}`);
     };
     return (
-        <div style={{ width: '100%', height: 'auto' }}>
+        <div >
 
             {/* slider section start */}
-            <div style={{ width: '100%', height: '500px' }}>
+            <div >
                 <Carousel showArrows={true} showThumbs={false} onChange={onChange} onClickItem={onClickItem} onClickThumb={onClickThumb}>
                     <div>
                         <img src={slider1} width={100} height={500} />
