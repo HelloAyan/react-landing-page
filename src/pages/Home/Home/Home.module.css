@@ -9,7 +9,7 @@
 }
 
 
-/* Quick List Feature Section Start */
+/* Quick List Section Start */
 .feature_container {
     width: 100%;
     height: auto;
@@ -165,8 +165,204 @@
     }
 }
 
+/* Quick List Section End */
 
-/* Quick List Feature Section End */
+
+
+/* Features Section Start */
+.features_container {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    column-gap: 80px;
+    row-gap: 20px;
+    padding: 50px 80px 0px 80px;
+}
+
+.features_section {
+    width: 100%;
+    height: auto;
+}
+
+.featured_title {
+    border-left: 3px solid var(--button-primary-color);
+}
+
+.featured_title h2 {
+    margin-left: 10px;
+}
+
+.features_section p {
+    margin: 20px auto;
+    color: gray;
+}
+
+.sub_content {
+    margin-top: 10px;
+    padding: 20px 42px 10px 30px;
+    box-shadow: 0px 3px 12px -8px gray;
+}
+
+.sub_content p {
+    color: gray;
+}
+
+.features_image {
+    width: 100%;
+    height: auto;
+}
+
+.features_image img {
+    width: 508px;
+    height: 782px;
+}
+
+.translate_container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 250px;
+    height: 100px;
+    margin: auto;
+    text-align: center;
+    color: white;
+    transform: translate(120px, -190px);
+    background-color: var(--button-primary-color);
+    border-radius: 5px;
+}
+
+@media screen and (max-width: 576px) {
+    .features_container {
+        width: 100%;
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        column-gap: 80px;
+        row-gap: 20px;
+        padding: 50px 30px;
+    }
+
+    .features_section {
+        width: auto;
+        height: auto;
+    }
+
+    .featured_title {
+        border-left: 3px solid var(--button-primary-color);
+    }
+
+    .featured_title h2 {
+        margin-left: 10px;
+    }
+
+    .features_section p {
+        margin: 20px auto;
+        color: gray;
+    }
+
+    .sub_content {
+        margin-top: 10px;
+        padding: 20px 42px 10px 30px;
+        box-shadow: 0px 3px 12px -8px gray;
+    }
+
+    .sub_content p {
+        color: gray;
+    }
+
+    .features_image {
+        width: auto;
+        height: auto;
+    }
+
+    .features_image img {
+        width: 100%;
+        height: auto;
+    }
+
+    .translate_container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        width: 150px;
+        height: 100px;
+        margin: auto;
+        text-align: center;
+        color: white;
+        transform: translate(20px, -200px);
+        background-color: var(--button-primary-color);
+        border-radius: 5px;
+    }
+}
+
+@media screen and (min-width: 577px) and (max-width: 992px) {
+    .features_container {
+        width: 100%;
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        column-gap: 80px;
+        row-gap: 20px;
+        padding: 50px 30px;
+    }
+
+    .features_section {
+        width: auto;
+        height: auto;
+    }
+
+    .featured_title {
+        border-left: 3px solid var(--button-primary-color);
+    }
+
+    .featured_title h2 {
+        margin-left: 10px;
+    }
+
+    .features_section p {
+        margin: 20px auto;
+        color: gray;
+    }
+
+    .sub_content {
+        margin-top: 10px;
+        padding: 20px 42px 10px 30px;
+        box-shadow: 0px 3px 12px -8px gray;
+    }
+
+    .sub_content p {
+        color: gray;
+    }
+
+    .features_image {
+        width: auto;
+        height: auto;
+    }
+
+    .features_image img {
+        width: 100%;
+        height: auto;
+    }
+
+    .translate_container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        width: 150px;
+        height: 100px;
+        margin: auto;
+        text-align: center;
+        color: white;
+        transform: translate(20px, -200px);
+        background-color: var(--button-primary-color);
+        border-radius: 5px;
+    }
+}
+
+/* Features Section End */
+
+
 
 
 /* Service Section Start */

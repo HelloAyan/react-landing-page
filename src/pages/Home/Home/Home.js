@@ -15,6 +15,7 @@ import team1 from '../../../assets/team/team1.png';
 import team2 from '../../../assets/team/team2.png';
 import team3 from '../../../assets/team/team3.png';
 import team4 from '../../../assets/team/team4.png';
+import architect from '../../../assets/architect.png';
 import { Carousel } from 'react-responsive-carousel';
 import 'react-responsive-carousel/lib/styles/carousel.min.css';
 import { FaSpider, FaCalendarCheck, FaPager, FaShopify, FaMobileAlt, FaDharmachakra } from "react-icons/fa";
@@ -60,8 +61,8 @@ const Home = () => {
                 </Carousel>
             </div>
 
-            {/* Quick List Feature Section Start */}
-
+            {/* Quick List Section Start */}
+            {/* <section> */}
             <div className={styles.feature_container}>
                 <div className={styles.feature_section}>
                     <div className={styles.feature_image_section}>
@@ -79,6 +80,46 @@ const Home = () => {
                     </div>
                 </div>
             </div>
+            {/* </section> */}
+            {/* Quick List  Section End */}
+
+
+            {/* Features Section Start  */}
+            {/* <section> */}
+            <div class={styles.features_container}>
+                <div class={styles.features_section}>
+                    <div class={styles.featured_title}>
+                        <h2>Features you will <br /> love & enjoy</h2>
+                    </div>
+                    <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even</p>
+                    <div class={styles.sub_content}>
+                        <h3>Desktop & Mobile Version</h3>
+                        <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised...........</p>
+                    </div>
+                    <div class={styles.sub_content}>
+                        <h3>Drag & Drop Builder</h3>
+                        <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised...........</p>
+                    </div>
+                    <div class={styles.sub_content}>
+                        <h3>Awesome Modern Design</h3>
+                        <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised...........</p>
+                    </div>
+                    <div class={styles.sub_content}>
+                        <h3>Super Easy to Edit</h3>
+                        <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised...........</p>
+                    </div>
+                </div>
+
+                <div class={styles.features_image}>
+                    <img src={architect} alt="Architect" />
+                </div>
+            </div>
+            <div class={styles.translate_container}>
+                <h1>10+Year</h1>
+                <p>Experience</p>
+            </div>
+            {/* </section> */}
+            {/* Features Section End */}
 
 
             {/* Services Section Start */}
