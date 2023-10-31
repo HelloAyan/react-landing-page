@@ -218,4 +218,42 @@
     -webkit-filter: none;
 }
 
+
+
+/* Media Query Start */
+@media screen and (max-width: 576px) {
+
+    .sponsorship_item_section {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        column-gap: 20px;
+        row-gap: 20px;
+    }
+
+    .sponsorship_item_image img {
+        width: 100px;
+        height: auto;
+        filter: grayscale(100%);
+        -webkit-filter: grayscale(100%);
+        cursor: pointer;
+    }
+}
+
+@media screen and (min-width: 577px) and (max-width: 992px) {
+    .sponsorship_item_section {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        column-gap: 20px;
+        row-gap: 20px;
+    }
+
+    .sponsorship_item_image img {
+        width: 100px;
+        height: auto;
+        filter: grayscale(100%);
+        -webkit-filter: grayscale(100%);
+        cursor: pointer;
+    }
+}
+
 /* Sponsorship Section End */
