@@ -15,6 +15,10 @@ import team1 from '../../../assets/team/team1.png';
 import team2 from '../../../assets/team/team2.png';
 import team3 from '../../../assets/team/team3.png';
 import team4 from '../../../assets/team/team4.png';
+import ribon from '../../../assets/icons/ribon.png';
+import projects from '../../../assets/icons/projects.png';
+import email_logo from '../../../assets/icons/email.png';
+import customer from '../../../assets/icons/customers.png';
 import architect from '../../../assets/architect.png';
 import { Carousel } from 'react-responsive-carousel';
 import 'react-responsive-carousel/lib/styles/carousel.min.css';
@@ -120,6 +124,39 @@ const Home = () => {
             </div>
             {/* </section> */}
             {/* Features Section End */}
+
+
+            {/*  Some Facts Section Start */}
+            <section>
+                <div class={styles.some_facts_container}>
+                    <h2 className={styles.title}>Some Facts</h2>
+
+                    <div class={styles.some_fact_box_container}>
+                        <div class={styles.box}>
+                            <img src={ribon} alt="Ribon" />
+                            <h2>54</h2>
+                            <p>Awards Winnings</p>
+                        </div>
+                        <div class={styles.box}>
+                            <img src={projects} alt="Project" />
+                            <h2>1458</h2>
+                            <p>Project Finished</p>
+                        </div>
+                        <div class={styles.box}>
+                            <img src={customer} alt="Customer" />
+                            <h2>590</h2>
+                            <p>Clients Worked</p>
+                        </div>
+                        <div class={styles.box}>
+                            <img src={email_logo} alt="Email" />
+                            <h2>22578</h2>
+                            <p>Email Send</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            {/*  Some Facts Section End */}
+
 
 
             {/* Services Section Start */}
