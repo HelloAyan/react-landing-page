@@ -66,8 +66,8 @@ const Home = () => {
                                 <Nav.Link href="#blog" className="text-white fs-5"> Blog</Nav.Link>
                                 <Nav.Link href="#Sponsorship" className="text-white fs-5">Sponsorship</Nav.Link>
                                 <Nav.Link href="#Our_Success" className="text-white fs-5">Our Success</Nav.Link>
-                                <Nav.Link href="#action2" className="text-white fs-5">About</Nav.Link>
-                                <Nav.Link href="#action1" className="text-white fs-5">Contact</Nav.Link>
+                                <Nav.Link href="#about" className="text-white fs-5">About Us</Nav.Link>
+                                <Nav.Link href="#contact" className="text-white fs-5">Contact</Nav.Link>
                             </Nav>
                         </Navbar.Collapse>
                     </Container>
@@ -108,7 +108,7 @@ const Home = () => {
 
 
                 {/* Quick List Section Start */}
-                <section>
+                <section id='about'>
                     <div className={styles.feature_container}>
                         <div className={styles.feature_section}>
                             <div className={styles.feature_image_section}>
@@ -120,7 +120,7 @@ const Home = () => {
                             </div>
                             <div className={styles.feature_content_section}>
                                 <div className={styles.feature_quick_list}>
-                                    <div className={styles.quick_list_title}>Quick List of our <br />  <span className={styles.feature_sub_title}> Features </span> </div>
+                                    <div className={styles.quick_list_title}>About Our <br />  <span className={styles.feature_sub_title}> Company </span> </div>
                                     <div className={styles.primary_button}>Explore More </div>
                                 </div>
                             </div>
@@ -288,6 +288,19 @@ const Home = () => {
 
                 </section>
                 {/*  Blog Section End */}
+
+
+                {/* Contact Section start */}
+                <section id='contact'>
+                    <div className={styles.contact_container}>
+                        <div className={styles.title}>Contact Us</div>
+                        <div className={styles.contact_background_image}>
+                            <div className={styles.contact_content}>Always keep a positive mindset</div>
+                            <div className={styles.primary_button}>Call Now</div>
+                        </div>
+                    </div>
+                </section>
+                {/* Contact Section End */}
 
 
                 {/* Sponsorship section start */}
