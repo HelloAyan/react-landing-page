@@ -122,7 +122,6 @@
 
 }
 
-
 /* Medium Device */
 @media screen and (min-width: 577px) and (max-width: 992px) {
     .service_container {
@@ -180,7 +179,43 @@
     }
 }
 
-
-
-
 /* Service Section End */
+
+
+/* Sponsorship Section Start */
+.sponsorship_container {
+    width: 100%;
+    height: auto;
+    padding: 30px 50px;
+    background-color: var(--background-light-color);
+}
+
+.sponsorship_item_section {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    column-gap: 20px;
+    row-gap: 20px;
+}
+
+.sponsorship_item_image {
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.sponsorship_item_image img {
+    width: 130px;
+    height: auto;
+    filter: grayscale(100%);
+    -webkit-filter: grayscale(100%);
+    cursor: pointer;
+}
+
+.sponsorship_item_image img:hover {
+    filter: none;
+    -webkit-filter: none;
+}
+
+/* Sponsorship Section End */

@@ -6,6 +6,11 @@ import slider3 from '../../../assets/slider3.png';
 import slider4 from '../../../assets/slider4.png';
 import slider5 from '../../../assets/slider5.png';
 import slider6 from '../../../assets/slider6.png';
+import amazon from '../../../assets/sponsors/amazon.png';
+import figma from '../../../assets/sponsors/figma.png';
+import google from '../../../assets/sponsors/google.png';
+import spotify from '../../../assets/sponsors/spotify.png';
+import telerama from '../../../assets/sponsors/telerama.png';
 import { Carousel } from 'react-responsive-carousel';
 import 'react-responsive-carousel/lib/styles/carousel.min.css';
 import { FaSpider, FaCalendarCheck, FaPager, FaShopify, FaMobileAlt, FaDharmachakra } from "react-icons/fa";
@@ -103,6 +108,20 @@ const Home = () => {
                             <div className={styles.item_main_contain}>Our solutions engineers are certified across a variety of testing platforms, and are well-versed in delivering A/B testing and personalisation campaigns for businesses. They’re happiest when they’re engrossed in Optimizely, Adobe Target, Convert, Monetate, VWO, Google Optimize, AB Tasty and Kameleoon.</div>
                         </div>
                     </div>
+                </div>
+            </div>
+
+
+            {/* Sponsorship section start */}
+            <div className={styles.sponsorship_container}>
+                <div className={styles.title}>Our Sponsorship</div>
+                <div className={styles.sponsorship_item_section}>
+                    <div className={styles.sponsorship_item_image}> <img src={amazon} alt="Amazon" /> </div>
+                    <div className={styles.sponsorship_item_image}> <img src={figma} alt="Figma" /></div>
+                    <div className={styles.sponsorship_item_image}><img src={google} alt="Google" /> </div>
+                    <div className={styles.sponsorship_item_image}> <img src={spotify} alt="Spotify" /> </div>
+                    <div className={styles.sponsorship_item_image}> <img src={telerama} alt="Telerama" /> </div>
+
                 </div>
             </div>
         </div>

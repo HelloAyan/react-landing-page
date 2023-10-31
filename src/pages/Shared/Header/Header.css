@@ -1,0 +1,5 @@
+.navbar-nav .nav-link:hover {
+    color: var(--hover-color) !important;
+    text-decoration: underline;
+    text-underline-offset: 10px;
+}

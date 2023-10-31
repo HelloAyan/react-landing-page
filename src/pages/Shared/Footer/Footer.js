@@ -1,7 +1,7 @@
 import React from 'react';
 import styles from './Footer.module.css';
 import logo from '../../../assets/Logo.png'
-import { FaFacebook, FaLinkedinIn, FaTwitterSquare, FaEnvelope } from "react-icons/fa";
+import { FaFacebook, FaLinkedinIn, FaTwitterSquare, FaEnvelope, FaInstagram } from "react-icons/fa";
 import { Link } from 'react-router-dom';
 
 const Footer = () => {
@@ -29,6 +29,7 @@ const Footer = () => {
                         <Link to={'https://facebook.com'} className={styles.icon_link}><FaFacebook size={30}></FaFacebook></Link>
                         <Link to={'https://linkedin.com'} className={styles.icon_link}> <FaLinkedinIn size={30}></FaLinkedinIn></Link>
                         <Link to={'https://twitter.com'} className={styles.icon_link}><FaTwitterSquare size={30}></FaTwitterSquare></Link>
+                        <Link to={'https://twitter.com'} className={styles.icon_link}><FaInstagram size={30}></FaInstagram></Link>
                     </div>
                 </div>
             </div>

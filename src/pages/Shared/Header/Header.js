@@ -1,6 +1,7 @@
 import React, { useState } from 'react'
 import { Container, Nav, Navbar } from 'react-bootstrap';
 import { Link, NavLink } from 'react-router-dom';
+import './Header.css';
 import logo from '../../../assets/Logo.png';
 
 const Header = () => {
@@ -18,7 +19,7 @@ const Header = () => {
                         navbarScroll
                     >
                         <Nav.Link href="#action1" className="text-white fs-5">Home</Nav.Link>
-                        <Nav.Link href="#action1" className="text-white fs-5">Gallery</Nav.Link>
+                        <Nav.Link href="#action1" className="text-white fs-5">Our Services</Nav.Link>
                         <Nav.Link href="#action1" className="text-white fs-5">Contact</Nav.Link>
                         <Nav.Link href="#action2" className="text-white fs-5">Contact</Nav.Link>
                         <Nav.Link href="#action1" className="text-white fs-5">About</Nav.Link>
