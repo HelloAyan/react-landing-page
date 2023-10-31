@@ -28,7 +28,7 @@ const Home = () => {
 
             {/* slider section start */}
             <div className={styles.slider_container}>
-                <Carousel showArrows={true} showThumbs={false} autoPlay={true} stopOnHover={false} interval={3000} onChange={onChange} onClickItem={onClickItem} onClickThumb={onClickThumb}>
+                <Carousel showArrows={true} showThumbs={false} autoPlay={true} stopOnHover={false} infiniteLoop={true} interval={3000} onChange={onChange} onClickItem={onClickItem} onClickThumb={onClickThumb}>
                     <div>
                         <img src={slider1} width={100} height={500} />
                     </div>
